@@ -1,0 +1,356 @@
+:root {
+    --color-primary:#fd0000;
+    --color-orange:#ef9b19;
+    --color-dourado:#cb9c3c;
+    --color-black:#000000;
+    --color-white:#fafafa;
+    --color-dourado-whatsapp:#936e39;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--color-black);
+    
+    overflow-x: hidden;
+}
+header {
+    background-color: var(--color-black);
+    justify-content: center;
+    display: block;
+    min-height: 200px;
+    text-align: center;
+}
+header img {
+    width: 140px;
+}
+.logo {
+    height: 500px;
+    background-image: url(../img/foto_pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+}
+.navbar {
+    min-width: 100%;
+    margin: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    
+
+}
+.navbar ul li a:hover {
+   
+    text-decoration: underline;
+}
+.section {
+   
+    width: 100%;
+    min-height: 200px;
+    
+}
+section h3{
+    padding: 10px;
+    color: var(--color-dourado);
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.pizza_gerais {
+   width: 100%;
+   min-height: 320px;
+   display: flex;
+   justify-content: center;
+   transition: .5s;
+   
+}
+ .pizza_gerais img {
+    width: 280px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: .5s;
+    
+}
+
+.pizza_gerais img:hover {
+    width: 300px;
+}
+.section {
+    
+    width: 100%;
+    min-height: 220px;
+}
+section .h1 {
+    color: var(--color-white);
+    font-family: 'Open Sans', sans-serif;
+    
+    text-align: center;
+    padding-top: 20px;
+}
+.localização {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.localização h1{
+    
+    padding: 10px;
+    color: var(--color-white);
+   
+}
+.localização span {
+    font-family: 'Open Sans', sans-serif;
+    border-top: 1px solid var(--color-white);
+    color: var(--color-white);
+    display: block;
+    font-size: 20px;
+    align-items: center;
+    padding-top: 2px;
+    
+}
+i {
+    
+    display: flex;
+    font-size: 22px;
+    color: var(--color-dourado)
+}
+i:first-child {
+    margin-left: 4px;
+}
+
+span:first-child {
+    margin-bottom: 10px;
+}
+span:last-child {
+    border: none;
+    text-align: center;
+    align-items: center;
+    color: var(--color-dourado)
+}
+legend {
+    text-align: center;
+    border: 4px solid rgb(195, 4, 4);
+    box-shadow: 0 0 15px var(--color-primary);
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+}
+fieldset {
+    padding: 10px 10px 0 10px;
+    min-height: 200px;
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    width: 100%;
+}
+.container {
+    
+    width: 100%;
+    min-height: 500px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 20px;
+    color: var(--color-white);
+}
+
+ .container h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    color: var(--color-white);
+}
+label {
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+}
+input {
+    padding: 12px;
+    border: none;
+    outline: none;
+    color: var(--color-black);
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    width: 80%;
+    font-size: 18px;
+}
+::placeholder {
+    font-size: 14px;
+}
+.inputbox {
+   
+    width: 100%;
+    text-align: center;
+}
+.nome {
+    
+    display: flex;
+    justify-content: space-around;
+}
+label {
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+}
+input {
+    padding: 12px;
+    border: none;
+    outline: none;
+    color: var(--color-black);
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    width: 80%;
+    font-size: 18px;
+}
+::placeholder {
+    font-size: 14px;
+}
+.endereço {
+    
+    width: 100%;
+   text-align: center;
+}
+.nome {
+    display: flex;
+    justify-content: space-around;
+}
+.inputsize {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+.btn {
+    padding: 20px;
+    width: 20%;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    font-weight: 600;
+    cursor: pointer;
+    margin: 15px;
+    transition: 0.5s;
+    
+   
+}
+.btn:hover {
+    background-color: var(--color-primary);
+}
+.botão {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.pagamento {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+.cartão input {
+    padding: 10px;
+    width: 200px;
+}
+.cartão-radio {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+}
+.cartão-radio  label{
+    margin: 0 10px;
+   
+}
+.formas h3 {
+    padding-bottom: 13px;
+    font-weight: 400;
+}
+.footer1 {
+    width: 100%;
+    min-height: 300px;
+    padding-top: 20px;
+}
+.footer1 h3 {
+    padding-right: 50px;
+}
+.footer {
+    color: white;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image{ 
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    top: 1990px;
+    left: 680px;
+    position: absolute;
+}
+.icon {
+   width: 40%;
+   display: block;
+   justify-content: center;
+   text-align: center;
+    margin: 20px 30%;
+}
+
+.icon a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+   
+}
+
+.icon span {
+    margin: 0;
+}
+.pai {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.entrega h3 {
+    font-size: 22px;
+}
+
+.icon i{
+    margin-right: 5px;
+    align-items: center;
+    font-size: 22px;
+}
+.icon li {
+    list-style: none;
+    
+}
+h4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin: 20px;
+}
